@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { User } from "../../domain/types/User";
-import { useApi } from "../../hooks/useApi";
+import { User } from "../../domain/entities/User";
+import { useApi } from "../../presentation/hooks/useApi";
 import { AuthContext } from "./AuthContext";
 interface IProvider {
   children: JSX.Element;

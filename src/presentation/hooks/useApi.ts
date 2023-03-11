@@ -1,11 +1,11 @@
-import axios from 'axios';
+// import axios from 'axios';
 
-const api = axios.create({
-    baseURL: process.env.REACT_APP_API
-});
+// const api = axios.create({
+//     baseURL: process.env.REACT_APP_API
+// });
 
 const userDataMock = {
-    user: {id: 3, name: 'horus', email:'horus.cristian@gmail.com'},
+    user: {id: 3, name: 'horus', email:'horus@gmail.com'},
     token: '123123123'
 };
 export const useApi = {

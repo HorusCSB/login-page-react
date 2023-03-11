@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router-dom";
-import { RequireAuth } from "../contexts/Auth/RequireAuth";
-import { Home } from "../pages/home";
-import { Private } from "../pages/private";
+import { RequireAuth } from "../../contexts/Auth/RequireAuth";
+import { Home } from "../../presentation/pages/home";
+import { Private } from "../../presentation/pages/private";
 
-const AppRoutes = () => {
+const Router = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
@@ -19,4 +19,4 @@ const AppRoutes = () => {
   );
 };
 
-export { AppRoutes };
+export { Router };
